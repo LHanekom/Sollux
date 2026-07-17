@@ -16,7 +16,7 @@ main {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    margin: 250px auto 0;
+    margin: 350px auto 0;
     max-width: 100%;
 }
 
@@ -38,6 +38,7 @@ main {
 
 .cta-button {
     font-size: 1.2rem;
+    font-weight: 600;
 }
 
 footer {
