@@ -16,7 +16,7 @@ main {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    margin: 200px auto 0;
+    margin: 250px auto 0;
     max-width: 100%;
 }
 
