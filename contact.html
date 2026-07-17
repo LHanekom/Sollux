@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact | Sollux</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/contact.css">
+</head>
+<body>
+    <header>
+      <img src="assets/logo.png" alt="SOLLUX logo" class="logo">
+      <section>
+        <h1>Sollux</h1>
+        <h2>Design & Marketing</h2>
+      </section>
+      <nav> 
+        <a href="index.html">Home</a>
+        <a href="services.html">Services</a>
+        <a href="projects.html" >Projects</a>
+        <a href="contact.html" class="active">Contact</a>
+      </nav>
+    </header>
+
+    <main>
+        <section class="contact-overview">
+            <h2>Write to us</h2>
+            <p>We welcome enquiries from those seeking a thoughtful approach to their creative work. Tell us what you have in mind, and we will respond as promptly as we are able.</p>
+        </section>
+        <div class="divider"></div>
+
+        <section class="contact">
+            <div class="contact-form">
+                <h3>Submit your enquiry</h3>
+                <form  action="https://formsubmit.co/sollux.dm@protonmail.com" method="POST">
+
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+
+                    <label for="subject">Subject:</label>
+                    <input type="text" id="subject" name="subject" required>
+
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" rows="5" required></textarea>
+
+                    <button type="submit" class="cta-button">Send Message</button>
+                </form>
+            </div>
+            <div class="contact-details">
+                <div>
+                    <h3>Direct Communication</h3>
+                    <p>Email: <br><a href="mailto:sollux.dm@protonmail.com">sollux.dm@protonmail.com</a></p>
+                    <p>Phone: <br><a href="tel:0648826196">064 882 6196</a></p>
+                </div>
+                <!--
+                <div>
+                    <h3>Find Us Online</h3>
+                    <a href="https://www.instagram.com/solluxdesign" target="_blank">Instagram</a> |
+                    <a href="https://www.linkedin.com/company/sollux-design-marketing" target="_blank">LinkedIn</a> |
+                    <a href="https://www.behance.net/solluxdesign" target="_blank">Facebook</a>
+                </div>
+                -->
+                <div>
+                    <h3>Hours of Operation</h3>
+                    <p>
+                        We attend to messages during ordinary business hours, Monday through Friday. We aim to respond promptly, though we ask for your patience as each enquiry receives the attention it deserves.
+                    </p>
+                </div>
+            </div>
+        </section>
+       
+    </main>
+    <footer>
+      <section>
+        <div>
+          <h3>Sollux Design & Marketing</h3>
+          <p>Digital craftsmanship with a fine-art soul. We build work of substance and distinction.</p>
+        </div>
+        <div>
+          <h3>Navigation</h3>
+          <div id="nav">
+            <a href="index.html" class="active">Home</a>
+            <a href="services.html">Services</a>
+            <a href="projects.html">Projects</a>
+            <a href="contact.html">Contact</a>
+          </div>
+          
+        </div>
+        <div>
+          <h3>Original Artworks</h3>
+          <p>Discover our collection of original paintings, prints, and artisan crafts.</p>
+          <a href="solluxart.co.za" class="cta-button">Visit Gallery</a>
+        </div>
+      </section>
+      <section id="copy">
+        <p>&copy; 2026 Sollux Design & Marketing. All rights reserved.</p>  
+      </section>
+    </footer>
+</body>
+</html>

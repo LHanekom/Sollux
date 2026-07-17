@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&family=Quicksand:wght@300..700&display=swap');
+
+:root {
+    --golden-yellow: #f4ad21;
+    --warm-cream: #F5F1E8;
+    --off-white: #FAF8F3;
+    --dark-brown: #2C2416;
+    --medium-brown: #3D3425;
+    --muted-brown: #5C4F3D;
+    --taupe: #8B7355;
+    --primary-font: 'Cormorant Garamond', serif;
+    --secondary-font: 'Quicksand', serif;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 150px auto 0;
+    max-width: 100%;
+}
+
+#hero {
+    text-align: center;
+    max-width: 50%;
+    margin: 100px auto;
+}
+
+#hero img {
+    margin-bottom: 40px;
+}
+
+#hero h1 {
+    font-size: 2.3rem;
+    margin-bottom: 40px;
+}
+
+#hero p {
+    font-size: 1.3rem;
+    margin-bottom: 40px;
+
+}
+
+#hero a {
+    font-size: 1rem;
+    margin: 35px 20px;
+    padding: 10px 30px;
+    font-weight: 600;
+}
+
+#about {
+    background-color: var(--warm-cream);
+    border-top: 1px solid var(--taupe);
+    border-bottom: 1px solid var(--taupe);
+    margin: 50px auto;
+}
+
+#about section {
+    display: flex;
+    max-width: 65%;
+    gap: 50px;
+    margin: 40px auto;
+    justify-content: space-between;
+}
+
+#about div {
+    width: 50%;
+}
+
+#about h2 {
+    font-size: 1.7rem;
+    margin-bottom: 15px;
+}
+
+#about p {
+    font-size: 1.1rem;
+    line-height: 1.5;
+}
+
+#contact {
+    text-align: center;
+    max-width: 50%;
+    margin: 20px auto;
+}
+
+#contact h2 {
+    font-size: 2rem;
+    margin-bottom: 30px;
+}
+
+#contact p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+
+}
+
+#contact a {
+    font-size: 1rem;
+    margin: 15px 20px 40px;
+    padding: 10px 30px;
+    font-weight: 600;
+}

@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&family=Quicksand:wght@300..700&display=swap');
+
+:root {
+    --golden-yellow: #f4ad21;
+    --warm-cream: #F5F1E8;
+    --off-white: #FAF8F3;
+    --dark-brown: #2C2416;
+    --medium-brown: #3D3425;
+    --muted-brown: #5C4F3D;
+    --taupe: #8B7355;
+    --primary-font: 'Cormorant Garamond', serif;
+    --secondary-font: 'Quicksand', serif;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 150px auto 0;
+    max-width: 100%;
+}
+
+.projects-overview {
+    text-align: center;
+    max-width: 50%;
+    margin: 0px auto;
+}
+
+.projects-overview h1 {
+    font-size: 2.3rem;
+    margin-bottom: 40px;
+}
+
+.projects-overview p {
+    font-size: 1.3rem;
+    margin-bottom: 40px;
+}
+
+.divider {
+    border-bottom: 1px solid var(--taupe);
+    margin-top: 20px;
+    margin-bottom: 50px;
+    width: 100%;
+}
+
+.project-gallery {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(250px, 1fr));
+    gap: 50px;
+    max-width: 70%;
+    margin: 0 auto 50px;
+}
+
+.project-item {
+    background-color: var(--dark-color);
+    color: var(--light-color);
+    padding: 10px;
+    border-radius: 10px;
+    transition: all 0.3s ease;
+}
+
+
+.project-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    background-color: var(--dark-color);
+    border: 1px solid #e6dbd0aa;
+}
+
+.project-item div {
+    border-left: 1px solid var(--golden-yellow);
+    padding: 5px 20px;
+    margin-top: 15px;
+}
+
+.project-item h3 {
+    font-size: 1.1rem;
+    margin: 10px 0 0 0;
+    text-transform: uppercase;
+    color: var(--golden-yellow);
+    font-family: var(--secondary-font);
+}
+
+.project-item h2 {
+    font-size: 1.7rem;
+    margin: 10px 0 15px 0;
+}
+
+.project-item p {
+    font-size: 1.3rem;
+    margin: 0;
+}
+
+.button {
+    margin-top: 15px;
+    display: inline-block;
+    text-decoration: none;
+    color: var(--taupe);
+    transition: all 0.3s ease;
+}
+
+.button:hover {
+    color: var(--golden-yellow);
+    transform: translateY(-2px);
+}
+
+#contact {
+    text-align: center;
+    max-width: 50%;
+    margin: 20px auto;
+}
+
+#contact h2 {
+    font-size: 2rem;
+    margin-bottom: 30px;
+}
+
+#contact p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+
+}
+
+#contact a {
+    font-size: 1rem;
+    margin: 15px 20px 40px;
+    padding: 10px 30px;
+    font-weight: 600;
+}
