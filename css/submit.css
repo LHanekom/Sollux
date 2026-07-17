@@ -16,7 +16,7 @@ main {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    margin: 150px auto 0;
+    margin: 200px auto 0;
     max-width: 100%;
 }
 
@@ -34,6 +34,10 @@ main {
 .submit p {
     font-size: 1.3rem;
     margin-bottom: 40px;
+}
+
+.cta-button {
+    font-size: 1.2rem;
 }
 
 footer {
